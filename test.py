@@ -4,7 +4,7 @@ import seaborn as sns
 
 # Load your dataset
 # Replace 'your_data.csv' with the path to your actual data file
-df = pd.read_csv('path_to_your_bike_sharing_data.csv')
+df = pd.read_excel('WQC hackathon ride-sharing data.xlsx')
 
 # Convert 'Start Time' and 'End Time' to datetime format
 df['Start Time'] = pd.to_datetime(df['Start Time'])
