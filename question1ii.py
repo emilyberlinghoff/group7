@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset (replace with the correct path to your file)
-excel_path = 'path_to_your_excel_file.xlsx'
+excel_path = 'ride.xlsx'
 df = pd.read_excel(excel_path)
 
 # Ensure column names match your dataset's structure
