@@ -12,7 +12,7 @@ library(ggplot2)
 library(lubridate)
 
 # Read the data from the Excel file
-df <- read.xlsx("/Users/victorpostea/Desktop/hack.xlsx", sheet = "Sheet1")
+df <- read.xlsx("/Users/victorpostea/Desktop/r_ride.xlsx", sheet = "Sheet1")
 
 # Define the date-time format based on the structure of 'Start_Time' and 'End_Time' columns
 datetime_format <- "%m/%d/%Y %H:%M"
